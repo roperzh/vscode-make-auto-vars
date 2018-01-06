@@ -1,0 +1,38 @@
+{
+	"av*": {
+		"prefix": "av*",
+		"body": "\\$*",
+		"description": "stem with which an implicit rule matches",
+		"scope": "source.makefile"
+	},
+	"av@": {
+		"prefix": "av@",
+		"body": "\\$@",
+		"description": "file name of the target",
+		"scope": "source.makefile"
+	},
+	"av^": {
+		"prefix": "av^",
+		"body": "\\$^",
+		"description": "names of all prerequisites",
+		"scope": "source.makefile"
+	},
+	"av<": {
+		"prefix": "av<",
+		"body": "\\$<",
+		"description": "name of the first prerequisite",
+		"scope": "source.makefile"
+	},
+	"av|": {
+		"prefix": "av|",
+		"body": "\\$|",
+		"description": "names of all the order-only prerequisites",
+		"scope": "source.makefile"
+	},
+	"av?": {
+		"prefix": "av?",
+		"body": "\\$?",
+		"description": "prerequisites newer than the target",
+		"scope": "source.makefile"
+	}
+}

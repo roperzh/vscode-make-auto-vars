@@ -1,0 +1,21 @@
+{
+    "name": "make-auto-vars",
+    "displayName": "make-auto-vars",
+    "description": "Snippets for GNU Make automatic variables",
+    "version": "1.0.0",
+    "publisher": "roperzh",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "makefile",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
